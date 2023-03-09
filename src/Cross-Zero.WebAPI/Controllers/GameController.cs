@@ -13,10 +13,10 @@ namespace Cross_Zero.WebAPI.Controllers
             _gameService = gameService;
         }
 
-        [HttpGet("getgames")]
+        [HttpGet("getall")]
         public async Task<IActionResult> GetGames()
         {
-            return Ok()
+            return Ok(await _gameService.GetGames())
         }
 
         [HttpPost("create")]

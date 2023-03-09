@@ -28,6 +28,11 @@ namespace Cross_Zero.Infrastructure.Repository
             return await _context.Games.Where(p=>p.Id == id).AsNoTracking().FirstOrDefaultAsync();
         }
 
+        public async Task<IEnumerable<Game>> GetGames()
+        {
+            return await _context.Games.ToListAsync();
+        }
+
         public async Task UpdateGame(Game game,int gameId)
         {
             var gameRes = await _context.Games.Where(p=>p.Id == gameId).FirstOrDefaultAsync();

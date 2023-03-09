@@ -9,5 +9,6 @@ namespace Cross_Zero.Core.Repository
         Task<int> AddGame(Game game);
         Task UpdateGame(Game game,int gameId);
         Task<Game?> GetGameById(int id);
+        Task<IEnumerable<Game>> GetGames();
     }
 }

@@ -43,6 +43,11 @@ namespace Cross_Zero.Application.Services
             };
         }
 
+        public async Task<IEnumerable<Game>> GetGames()
+        {
+            return await _gameRepository.GetGames();
+        }
+
         public async Task<GameDTO> JoinTheGame(int userId,int gameId)
         {
             Game? game = await _gameRepository.GetGameById(gameId);
