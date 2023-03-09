@@ -9,7 +9,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cross-Zero.Application\Cross-Zero.Application.csproj" />
+    <ProjectReference Include="..\Cross-Zero.Core\Cross-Zero.Core.csproj" />
+    <ProjectReference Include="..\Cross-Zero.Infrastructure\Cross-Zero.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

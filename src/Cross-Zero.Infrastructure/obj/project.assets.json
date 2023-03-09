@@ -263,6 +263,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Cross-Zero.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Cross-Zero.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cross-Zero.Core.dll": {}
+        }
       }
     }
   },
@@ -661,39 +674,51 @@
         "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
+    },
+    "Cross-Zero.Core/1.0.0": {
+      "type": "project",
+      "path": "../Cross-Zero.Core/Cross-Zero.Core.csproj",
+      "msbuildProject": "../Cross-Zero.Core/Cross-Zero.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Cross-Zero.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0"
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "C:\\Users\\power\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/root/projects/cross-zero_test/src/Cross-Zero.Infrastructure/Cross-Zero.Infrastructure.csproj",
+      "projectUniqueName": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Infrastructure\\Cross-Zero.Infrastructure.csproj",
       "projectName": "Cross-Zero.Infrastructure",
-      "projectPath": "/root/projects/cross-zero_test/src/Cross-Zero.Infrastructure/Cross-Zero.Infrastructure.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/projects/cross-zero_test/src/Cross-Zero.Infrastructure/obj/",
+      "projectPath": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Infrastructure\\Cross-Zero.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\power\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\Cross-Zero.Core.csproj": {
+              "projectPath": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\Cross-Zero.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -731,7 +756,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

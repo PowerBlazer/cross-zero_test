@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/root/projects/cross-zero_test/src/Cross-Zero.Core/Cross-Zero.Core.csproj": {}
+    "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\Cross-Zero.Core.csproj": {}
   },
   "projects": {
-    "/root/projects/cross-zero_test/src/Cross-Zero.Core/Cross-Zero.Core.csproj": {
+    "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\Cross-Zero.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/projects/cross-zero_test/src/Cross-Zero.Core/Cross-Zero.Core.csproj",
+        "projectUniqueName": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\Cross-Zero.Core.csproj",
         "projectName": "Cross-Zero.Core",
-        "projectPath": "/root/projects/cross-zero_test/src/Cross-Zero.Core/Cross-Zero.Core.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/projects/cross-zero_test/src/Cross-Zero.Core/obj/",
+        "projectPath": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\Cross-Zero.Core.csproj",
+        "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\cross-zero_test\\src\\Cross-Zero.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\power\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

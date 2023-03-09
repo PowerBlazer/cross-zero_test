@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/Cross-Zero.WebAPI.props" />
+  <Import Project="..\buildMultiTargeting\Cross-Zero.WebAPI.props" />
 </Project>

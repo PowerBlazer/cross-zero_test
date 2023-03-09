@@ -1,11 +1,20 @@
+using Cross_Zero.Core.Enums;
+using Cross_Zero.Application;
+using Newtonsoft.Json;
+using Cross_Zero.Infrastructure;
+using PowerMessenger.Core.Middlewares;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddServicesApplication(builder.Configuration);
+builder.Services.AddServicesInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
@@ -21,5 +30,7 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.Run();
