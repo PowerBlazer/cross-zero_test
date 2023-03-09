@@ -13,6 +13,7 @@ namespace Cross_Zero.Application
            IConfiguration configuration)
         {
             services.AddScoped<IGameService, GameService>();
+            services.AddScoped<IUserService,UserService>();
 
             return services;
         }

@@ -9,7 +9,11 @@ namespace Cross_Zero.Infrastructure.Configuration
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-           
+            builder.HasData(new User[]
+            {
+               new User { Id = 1,Nickname="Vlad"},
+               new User { Id = 2,Nickname="Tolya"},
+            });
         }
     }
 }

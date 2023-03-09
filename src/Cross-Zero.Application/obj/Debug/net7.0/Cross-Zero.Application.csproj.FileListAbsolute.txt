@@ -1,0 +1,15 @@
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\bin\Debug\net7.0\Cross-Zero.Application.deps.json
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\bin\Debug\net7.0\Cross-Zero.Application.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\bin\Debug\net7.0\Cross-Zero.Application.pdb
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\bin\Debug\net7.0\Cross-Zero.Core.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\bin\Debug\net7.0\Cross-Zero.Core.pdb
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.csproj.AssemblyReference.cache
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.AssemblyInfoInputs.cache
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.AssemblyInfo.cs
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.csproj.CoreCompileInputs.cache
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.csproj.CopyComplete
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\refint\Cross-Zero.Application.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\Cross-Zero.Application.pdb
+D:\GitHub\cross-zero_test\src\Cross-Zero.Application\obj\Debug\net7.0\ref\Cross-Zero.Application.dll

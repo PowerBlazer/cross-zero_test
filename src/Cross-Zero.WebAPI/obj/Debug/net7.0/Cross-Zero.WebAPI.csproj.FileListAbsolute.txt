@@ -69,3 +69,10 @@ D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Microsoft.Entit
 D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Cross-Zero.Core.dll
 D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Cross-Zero.Core.pdb
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\MySqlConnector.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Cross-Zero.Application.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Cross-Zero.Infrastructure.dll
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Cross-Zero.Application.pdb
+D:\GitHub\cross-zero_test\src\Cross-Zero.WebAPI\bin\Debug\net7.0\Cross-Zero.Infrastructure.pdb

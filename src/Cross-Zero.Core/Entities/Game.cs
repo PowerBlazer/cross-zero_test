@@ -27,6 +27,6 @@ namespace Cross_Zero.Core.Entities
         public GameState State { get; set; } = GameState.Waiting;
 
         public User FirstPlayer { get; set; }
-        public User SecondPlayer { get; set; }
+        public User? SecondPlayer { get; set; }
     }
 }

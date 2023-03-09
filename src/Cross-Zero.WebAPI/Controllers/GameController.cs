@@ -5,12 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 namespace Cross_Zero.WebAPI.Controllers
 {
     [Route("game")]
-    public class GameController:ControllerBase
+    public class GameController : ControllerBase
     {
         private readonly IGameService _gameService;
         public GameController(IGameService gameService)
         {
-            _gameService= gameService;
+            _gameService = gameService;
+        }
+
+        [HttpGet("getgames")]
+        public async Task<IActionResult> GetGames()
+        {
+            return Ok()
         }
 
         [HttpPost("create")]
